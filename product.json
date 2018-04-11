@@ -1,0 +1,767 @@
+[
+    {
+        "p_name": "Linux Virtual Machines",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/virtual-machines"
+    },
+    {
+        "p_name": "Windows Virtual Machines",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/virtual-machines/windows/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/virtual-machines"
+    },
+    {
+        "p_name": "Virtual Machine Scale Sets",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/virtual-machine-scale-sets"
+    },
+    {
+        "p_name": "Web Apps",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/app-service-web/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/app-service-web"
+    },
+    {
+        "p_name": "App Service",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/app-service/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/app-service"
+    },
+    {
+        "p_name": "Functions",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/azure-functions/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/azure-functions"
+    },
+    {
+        "p_name": "Azure Container Service (AKS)",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/aks/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/aks"
+    },
+    {
+        "p_name": "Azure Container Instances",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/container-instances/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/container-instances"
+    },
+    {
+        "p_name": "Batch",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/batch/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/batch"
+    },
+    {
+        "p_name": "Service Fabric",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/service-fabric/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/service-fabric"
+    },
+    {
+        "p_name": "Cloud Services",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cloud-services/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cloud-services"
+    },
+    {
+        "p_name": "SQL Database",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/sql-database/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/sql-database"
+    },
+    {
+        "p_name": "Azure Database for MySQL",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/mysql/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/mysql"
+    },
+    {
+        "p_name": "Azure Database for PostgreSQL",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/postgresql/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/postgresql"
+    },
+    {
+        "p_name": "SQL Data Warehouse",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/sql-data-warehouse/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/sql-data-warehouse"
+    },
+    {
+        "p_name": "SQL Server Stretch Database",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/sql-server-stretch-database/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/sql-server-stretch-database"
+    },
+    {
+        "p_name": "Azure Cosmos DB",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cosmos-db/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cosmos-db"
+    },
+    {
+        "p_name": "Table Storage",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cosmos-db/table-storage-overview",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cosmos-db"
+    },
+    {
+        "p_name": "Redis Cache",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/redis-cache/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/redis-cache"
+    },
+    {
+        "p_name": "Azure Container Service (AKS)",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/aks/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/aks"
+    },
+    {
+        "p_name": "Azure Container Instances",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/container-instances/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/container-instances"
+    },
+    {
+        "p_name": "Azure Container Registry",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/container-registry/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/container-registry"
+    },
+    {
+        "p_name": "Service Fabric",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/service-fabric/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/service-fabric"
+    },
+    {
+        "p_name": "Web App for Containers",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/app-service/containers/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/app-service"
+    },
+    {
+        "p_name": "Batch",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/batch/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/batch"
+    },
+    {
+        "p_name": "Logic Apps",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/logic-apps/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/logic-apps"
+    },
+    {
+        "p_name": "Service Bus",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/service-bus/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/service-bus"
+    },
+    {
+        "p_name": "API Management",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/api-management/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/api-management"
+    },
+    {
+        "p_name": "StorSimple",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/storsimple/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/storsimple"
+    },
+    {
+        "p_name": "SQL Server Stretch Database",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/sql-server-stretch-database/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/sql-server-stretch-database"
+    },
+    {
+        "p_name": "Data Catalog",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/data-catalog/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/data-catalog"
+    },
+    {
+        "p_name": "Data Factory",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/data-factory/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/data-factory"
+    },
+    {
+        "p_name": "Event Grid",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/event-grid/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/event-grid"
+    },
+    {
+        "p_name": "Biztalk Services",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/biztalk-services/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/biztalk-services"
+    },
+    {
+        "p_name": "Azure Stack Operator",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/azure-stack/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/azure-stack"
+    },
+    {
+        "p_name": "Azure Stack User",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/azure-stack/user",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/azure-stack"
+    },
+    {
+        "p_name": "Azure US Government",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/azure-government/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/azure-government"
+    },
+    {
+        "p_name": "Azure Germany",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/germany/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/germany"
+    },
+    {
+        "p_name": "Microsoft Azure China 21Vianet",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/china/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/china"
+    },
+    {
+        "p_name": "Networking Overview",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/networking/networking-overview",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/networking"
+    },
+    {
+        "p_name": "Virtual Network",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/virtual-network/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/virtual-network"
+    },
+    {
+        "p_name": "Load Balancer",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/load-balancer/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/load-balancer"
+    },
+    {
+        "p_name": "Application Gateway",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/application-gateway/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/application-gateway"
+    },
+    {
+        "p_name": "VPN Gateway",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/vpn-gateway/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/vpn-gateway"
+    },
+    {
+        "p_name": "Azure DNS",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/dns/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/dns"
+    },
+    {
+        "p_name": "Content Delivery Network",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cdn/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cdn"
+    },
+    {
+        "p_name": "Traffic Manager",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/traffic-manager/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/traffic-manager"
+    },
+    {
+        "p_name": "ExpressRoute",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/expressroute/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/expressroute"
+    },
+    {
+        "p_name": "DDOS protection",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/virtual-network/ddos-protection-overview",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/virtual-network"
+    },
+    {
+        "p_name": "Network Watcher",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/network-watcher/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/network-watcher"
+    },
+    {
+        "p_name": "Machine Learning",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/machine-learning/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/machine-learning"
+    },
+    {
+        "p_name": "Azure Bot Service",
+        "p_doc_url": "https://docs.microsoft.com/bot-framework/bot-service-overview-introduction",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/bot-service/"
+    },
+    {
+        "p_name": "Azure Batch AI",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/batch-ai/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/batch-ai"
+    },
+    {
+        "p_name": "Custom Decision Service",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/custom-decision-service/custom-decision-service-overview",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Entity Linking",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/entitylinking/home",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Knowledge Exploration Service (KES)",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/kes/overview",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "QnAMaker",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/home",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Academic Knowledge",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/academic-knowledge/home",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Bing Spell Check",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/bing-spell-check/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Language Understanding (LUIS)",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/luis/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Linguistic Analysis",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/linguisticanalysisapi/home",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Text Analytics",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Translator Speech",
+        "p_doc_url": "https://docs.microsofttranslator.com/speech-translate.html",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/speech-translate.html"
+    },
+    {
+        "p_name": "Translator Text API",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/translator/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Web Language Model",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/web-language-model/home",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Bing News",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/bing-news-search/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Bing Video Search",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/Bing-Video-Search/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Bing Web Search",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/bing-web-search/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Bing Autosuggest",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/Bing-Autosuggest",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Bing Custom Search",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/bing-custom-search",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Bing Entity Search",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/bing-entities-search/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Bing Image Search",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/bing-image-search",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Bing Speech Service",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/speech/home",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Custom Speech Service",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/custom-speech-service/cognitive-services-custom-speech-home",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Speaker Recognition",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/speaker-recognition/home",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Computer Vision",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Content Moderator",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/content-moderator/overview",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Custom Vision Service",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/Custom-Vision-Service/home",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Emotion API",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/emotion/home",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Face API",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/face/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Video Indexer",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cognitive-services/video-indexer/video-indexer-overview",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cognitive-services"
+    },
+    {
+        "p_name": "Storage",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/storage/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/storage"
+    },
+    {
+        "p_name": "Blob Storage",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/storage"
+    },
+    {
+        "p_name": "Disk Storage",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/virtual-machines/windows/about-disks-and-vhds",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/virtual-machines"
+    },
+    {
+        "p_name": "Queue Storage",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/storage/queues/storage-queues-introduction",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/storage"
+    },
+    {
+        "p_name": "File Storage",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/storage/files/storage-files-introduction/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/storage"
+    },
+    {
+        "p_name": "Data Lake Store",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/data-lake-store/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/data-lake-store"
+    },
+    {
+        "p_name": "StorSimple",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/storsimple/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/storsimple"
+    },
+    {
+        "p_name": "Backup",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/backup/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/backup"
+    },
+    {
+        "p_name": "Site Recovery",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/site-recovery/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/site-recovery"
+    },
+    {
+        "p_name": "HDInsight",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/hdinsight/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/hdinsight"
+    },
+    {
+        "p_name": "Azure Databricks",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/azure-databricks/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/azure-databricks"
+    },
+    {
+        "p_name": "Stream Analytics",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/stream-analytics/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/stream-analytics"
+    },
+    {
+        "p_name": "Data Lake Analytics",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/data-lake-analytics/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/data-lake-analytics"
+    },
+    {
+        "p_name": "Analysis Services",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/analysis-services/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/analysis-services"
+    },
+    {
+        "p_name": "Event Hubs",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/event-hubs/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/event-hubs"
+    },
+    {
+        "p_name": "Data Factory",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/data-factory/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/data-factory"
+    },
+    {
+        "p_name": "SQL Data Warehouse",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/sql-data-warehouse/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/sql-data-warehouse"
+    },
+    {
+        "p_name": "Machine Learning Studio",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/machine-learning/studio",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/machine-learning"
+    },
+    {
+        "p_name": "Data Catalog",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/data-catalog/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/data-catalog"
+    },
+    {
+        "p_name": "Data Lake Store",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/data-lake-store/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/data-lake-store"
+    },
+    {
+        "p_name": "Power BI Embedded",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/power-bi-embedded/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/power-bi-embedded"
+    },
+    {
+        "p_name": "Visual Studio Team Services",
+        "p_doc_url": "https://docs.microsoft.com/en-us/vsts/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/"
+    },
+    {
+        "p_name": "Azure DevTest Labs",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/devtest-lab/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/devtest-lab"
+    },
+    {
+        "p_name": "Application Insights",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/application-insights/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/application-insights"
+    },
+    {
+        "p_name": "API Management",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/api-management/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/api-management"
+    },
+    {
+        "p_name": "HockeyApp",
+        "p_doc_url": "https://docs.microsoft.comhttps://support.hockeyapp.net/kb",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/kb"
+    },
+    {
+        "p_name": "Xamarin",
+        "p_doc_url": "https://docs.microsoft.comhttps://azure.microsoft.com/en-us/features/xamarin",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/en-us"
+    },
+    {
+        "p_name": "IoT Developer Center",
+        "p_doc_url": "https://docs.microsoft.comhttps://azure.microsoft.com/develop/iot/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/develop"
+    },
+    {
+        "p_name": "Azure IoT Hub",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/iot-hub/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/iot-hub"
+    },
+    {
+        "p_name": "IoT Hub Device Provisioning Service",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/iot-dps/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/iot-dps"
+    },
+    {
+        "p_name": "IoT Edge",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/iot-edge/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/iot-edge"
+    },
+    {
+        "p_name": "Azure IoT Suite",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/iot-suite/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/iot-suite"
+    },
+    {
+        "p_name": "Azure Location Based Services",
+        "p_doc_url": "https://docs.microsoft.com/azure/location-based-services/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/location-based-services"
+    },
+    {
+        "p_name": "Event Hubs",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/event-hubs/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/event-hubs"
+    },
+    {
+        "p_name": "Stream Analytics",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/stream-analytics/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/stream-analytics"
+    },
+    {
+        "p_name": "Machine Learning services",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/machine-learning/preview",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/machine-learning"
+    },
+    {
+        "p_name": "Notification Hubs",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/notification-hubs/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/notification-hubs"
+    },
+    {
+        "p_name": "Time Series Insights",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/time-series-insights/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/time-series-insights"
+    },
+    {
+        "p_name": "Event Grid",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/event-grid/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/event-grid"
+    },
+    {
+        "p_name": "Azure Cosmos DB",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cosmos-db/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cosmos-db"
+    },
+    {
+        "p_name": "Logic Apps",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/logic-apps/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/logic-apps"
+    },
+    {
+        "p_name": "Web Apps",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/app-service-web/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/app-service-web"
+    },
+    {
+        "p_name": "Web App for Containers",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/app-service/containers/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/app-service"
+    },
+    {
+        "p_name": "Mobile Apps",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/app-service-mobile/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/app-service-mobile"
+    },
+    {
+        "p_name": "API Apps",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/app-service-api/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/app-service-api"
+    },
+    {
+        "p_name": "Content Delivery Network",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cdn/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cdn"
+    },
+    {
+        "p_name": "Media Services",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/media-services/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/media-services"
+    },
+    {
+        "p_name": "Azure Search",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/search/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/search"
+    },
+    {
+        "p_name": "Mobile Engagement",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/mobile-engagement/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/mobile-engagement"
+    },
+    {
+        "p_name": "Notification Hubs",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/notification-hubs/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/notification-hubs"
+    },
+    {
+        "p_name": "Security Center",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/security-center",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/security-center"
+    },
+    {
+        "p_name": "Azure Active Directory for Developers",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/active-directory/develop",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/active-directory"
+    },
+    {
+        "p_name": "Key Vault",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/key-vault/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/key-vault"
+    },
+    {
+        "p_name": "Azure Active Directory",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/active-directory/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/active-directory"
+    },
+    {
+        "p_name": "Azure Active Directory B2C",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/active-directory-b2c",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/active-directory-b2c"
+    },
+    {
+        "p_name": "Azure Active Directory for Domain Services",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/active-directory-domain-services",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/active-directory-domain-services"
+    },
+    {
+        "p_name": "Multi-Factor Authentication",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/multi-factor-authentication/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/multi-factor-authentication"
+    },
+    {
+        "p_name": "Security Information",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/security/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/security"
+    },
+    {
+        "p_name": "Azure Policy",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/azure-policy/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/azure-policy"
+    },
+    {
+        "p_name": "Azure Cost Management",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/cost-management/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/cost-management"
+    },
+    {
+        "p_name": "Azure Monitor",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/monitoring-and-diagnostics"
+    },
+    {
+        "p_name": "Application Insights",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/application-insights/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/application-insights"
+    },
+    {
+        "p_name": "Log Analytics",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/log-analytics/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/log-analytics"
+    },
+    {
+        "p_name": "Backup",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/backup/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/backup"
+    },
+    {
+        "p_name": "Site Recovery",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/site-recovery/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/site-recovery"
+    },
+    {
+        "p_name": "Automation",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/automation/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/automation"
+    },
+    {
+        "p_name": "Scheduler",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/scheduler/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/scheduler"
+    },
+    {
+        "p_name": "Billing",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/billing/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/billing"
+    },
+    {
+        "p_name": "Azure Advisor",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/advisor",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/advisor"
+    },
+    {
+        "p_name": "Azure Service Health",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/service-health",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/service-health"
+    },
+    {
+        "p_name": "Azure Resource Manager",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/azure-resource-manager/",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/azure-resource-manager"
+    },
+    {
+        "p_name": "Managed Applications",
+        "p_doc_url": "https://docs.microsoft.com/en-us/azure/managed-applications",
+        "Pricing_url": "https://azure.microsoft.com/zh-tw/pricing/details/managed-applications"
+    }
+]
