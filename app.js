@@ -184,16 +184,95 @@ intents.matches('AskSubScriptionBalance',[
         for (let i = 0; i <  args.entities.length; i++) {
             entity_type_set.push(args.entities[i].type)
         }
-        if(entity_type_set.includes("Token")){
+        if(entity_type_set.includes("Token") && !entity_type_set.includes("RollOverProblem")){
             var msg = new builder.Message(session)
             .addAttachment(subscriptionQA_template.aio_Balance_Template);
             session.send(msg);
+        }else if(entity_type_set.includes("RollOverProblem")){
+            var aio_RollOverProblemCard=subscriptionQA_template.aio_RollOverProblem(session)
+            var msg=new builder.Message(session)
+            msg.addAttachment(aio_RollOverProblemCard);
+            session.send(msg);
+            session.send("You are in the entity of the Rollover problem");
         }else{
             session.send("Maybe you should ask the problem more specifically!!")
         }
         console.log(entity_type_set);
     },
 ])
+intents.matches('WhereSubscriptionAvailable',[
+    function(session,args,next){
+        var entity_type_set=[];
+        for (let i = 0; i <  args.entities.length; i++) {
+            entity_type_set.push(args.entities[i].type)
+        }
+        console.log(entity_type_set)
+        if(entity_type_set.includes("whereToBuy")){
+            var aioCountryCard=subscriptionQA_template.aio_countryAvailable(session)
+            var msg=new builder.Message(session)
+            msg.addAttachment(aioCountryCard);
+            session.send(msg);
+            session.send("You are in the entity of the where to buy")
+        }else{
+            session.send('Although you ask the problem of aio, you should give me more information like country(keywords)');
+        }
+    }
+]);
+intents.matches('SubscriptionAdvantage',[
+    function(session,args,next){
+        var entity_type_set=[];
+        for (let i = 0; i <  args.entities.length; i++) {
+            entity_type_set.push(args.entities[i].type)
+        }
+        console.log(entity_type_set)
+        if(entity_type_set.includes("SubAdvantage")){
+            var aioAdvantage=subscriptionQA_template.aio_Advantage(session)
+            var msg=new builder.Message(session)
+            msg.addAttachment(aioAdvantage);
+            session.send(msg);
+            session.send("You are in the entity of the benefits")
+        }else{
+            session.send('Although you ask the problem of aio, you should give me more information like you wanna know benefit(keywords)');
+        }
+    }
+]);
+intents.matches('SubscriptionAssociate',[
+    function(session,args,next){
+        var entity_type_set=[];
+        for (let i = 0; i <  args.entities.length; i++) {
+            entity_type_set.push(args.entities[i].type)
+        }
+        console.log(entity_type_set)
+        if(entity_type_set.includes("SubAssociate")){
+            var aioBinding=subscriptionQA_template.aio_BindingProblem(session)
+            var msg=new builder.Message(session)
+            msg.addAttachment(aioBinding);
+            session.send(msg);
+            session.send("You are in the entity of the Binding Problem")
+        }else{
+            session.send('Although you ask the problem of aio, you should give me more information like you wanna know Some binding problem(keywords)');
+        }
+    }
+]);
+
+intents.matches('SubscriptionServicesAvailable',[
+    function(session,args,next){
+        var entity_type_set=[];
+        for (let i = 0; i <  args.entities.length; i++) {
+            entity_type_set.push(args.entities[i].type)
+        }
+        console.log(entity_type_set)
+        if(entity_type_set.includes("ServicesAvailable") && entity_type_set.includes("Subscription")){
+            var aio_serviceAvailable=subscriptionQA_template.aio_serviceAvailable(session)
+            var msg=new builder.Message(session)
+            msg.addAttachment(aio_serviceAvailable);
+            session.send(msg);
+            session.send("You are in the entity of the ServicesAvailable")
+        }else{
+            session.send('Although you ask the problem of aio, you should give me more information like you wanna know Some services problem(keywords)');
+        }
+    }
+]);
 // =========================================================================
 // Dealing with the Order If user wants to delete it, just say delete which would trigger the action.
 intents.matches('ShowOrder',[ShowOrderController.show])

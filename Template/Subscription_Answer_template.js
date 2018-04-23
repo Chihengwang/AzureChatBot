@@ -98,3 +98,76 @@ exports.payg_Introduction=function createThumbnailCard(session) {
 
         ]);
 }
+
+
+exports.aio_countryAvailable=function createThumbnailCard(session) {
+    var msg="Azure in Open is available in countries that have Open Volume Licensing program partners and that offer Azure Direct."
+    msg+="Go here to see if Open volume licensing is available in your country."
+    return new builder.ThumbnailCard(session)
+        .title('Azure in open available country')
+        .subtitle('You can find the available country to get the license.')
+        .text(msg)
+        .buttons([
+            builder.CardAction.openUrl(session, 'https://www.microsoft.com/en-us/licensing/worldwide.aspx', 'Available Countries'),
+            builder.CardAction.openUrl(session, 'https://azure.microsoft.com/zh-tw/pricing/', 'Pricing page')
+        ]);
+}
+
+
+exports.aio_Advantage=function createThumbnailCard(session) {
+    var msg="Before August 2014, there were two options for customers to purchase Azure, either on azure.microsoft.com or as part of an Enterprise Agreement (EA) with Microsoft."
+    msg+="With this change, Azure will now be available through another familiar licensing option that offers the benefits of Microsoft Volume Licensing.";
+    msg+="One major benefit of purchasing Azure via Open Licensing is the ability for customers to work with the same resellers that they may purchase from currently under the Open Volume License Programs";
+    msg+="—enabling them to take advantage of the services and expertise they offer as well as help with managing their account.";
+    return new builder.ThumbnailCard(session)
+        .title('Azure in open Benefits')
+        .subtitle('These are the benefits while getting the azure in open')
+        .text(msg)
+        .buttons([
+            builder.CardAction.openUrl(session, 'https://azure.microsoft.com/en-us/offers/ms-azr-0111p/', 'More information?'),
+            builder.CardAction.openUrl(session, 'https://azure.microsoft.com/zh-tw/pricing/', 'Pricing page')
+        ]);
+}
+
+
+exports.aio_BindingProblem=function createThumbnailCard(session) {
+    var msg="Associating an Azure in Open subscription with an EA will forfeit any unconsumed Azure in Open credits."
+    msg+="Prior to associating an Azure in Open account with an EA, please review relevant Azure EA documentation.";
+    msg+="**To avoid any potential forfeiture of credit**, it is recommended that customers **consume all credit **on an Azure in Open subscription prior to adding the account to their EA.";
+    return new builder.ThumbnailCard(session)
+        .title('Azure in open Binding problem')
+        .subtitle('Watch out while you want to bind two subscription')
+        .text(msg)
+        .buttons([
+            builder.CardAction.openUrl(session, 'https://azure.microsoft.com/en-us/offers/ms-azr-0111p/', 'Azure in open page'),
+            builder.CardAction.openUrl(session, 'https://azure.microsoft.com/zh-tw/pricing/', 'Pricing page')
+        ]);
+}
+
+exports.aio_serviceAvailable=function createThumbnailCard(session) {
+    var msg="In the Azure Marketplace, customers in Open licensing can transact all bring-your-own-license(BYOL) offerings and will need to associate a new subscription with a credit card for usage-based offerings."
+    msg+="Some Azure services can be purchased through Open Licensing as per user licenses on an annual term, separately. Azure Active Directory Basic and Premium and Enterprise Mobility Suite (EMS) are examples of a per user license that are purchased annually and separately.";
+    msg+="Some services aren’t available in all Datacenter locations. **You can check to see what services are offered in each Datacenter here.**";
+    return new builder.ThumbnailCard(session)
+        .title('Azure in open available services')
+        .subtitle('Some services can\'t be used in azure in open')
+        .text(msg)
+        .buttons([
+            builder.CardAction.openUrl(session, 'https://azure.microsoft.com/en-us/status/', 'Available Services page'),
+            builder.CardAction.openUrl(session, 'https://azure.microsoft.com/zh-tw/pricing/', 'Pricing page')
+        ]);
+}
+
+exports.aio_RollOverProblem=function createThumbnailCard(session) {
+    var msg="**No.** The Azure in Open program does not offer any rollover benefits to future periods."
+    msg+="Customers have a “use or lose” deadline **that expires 12 months after the date of activation.**";
+    msg+=" If a customer has activated multiple OSA keys at different times, each key will have a separate expiration date based on the each key’s individual activation date.";
+    return new builder.ThumbnailCard(session)
+        .title('Wanna roll over your token?')
+        .subtitle('Something you should notice.')
+        .text(msg)
+        .buttons([
+            builder.CardAction.openUrl(session, 'https://azure.microsoft.com/en-us/offers/ms-azr-0111p/', 'Azure in open page'),
+            builder.CardAction.openUrl(session, 'https://azure.microsoft.com/zh-tw/pricing/', 'Pricing page')
+        ]);
+}
